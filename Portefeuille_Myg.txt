@@ -1,0 +1,44 @@
+
+
+API remplacement : https://www.scraperapi.com/?fp_ref=scraperapi_info
+
+
+--- BOURSE RESULTAT ---
+capital : 12.300  (lev x2.5)
+22.11.20  : -60
+29.11.20  : +57
+06.12.20  : +105
+13.12.20  : +322
+20.12.20  : +620
+
+
+--- PORTEFEUILLE ---
+iShares USD Treasury Bond 20+yr 	20%	ICE US Treasury 20+ Year Bond	0.07%	Link
+iShares Core S&P 500            	27%	S&P 500	                        0.07%	Link
+Amundi Physical Gold            	10%	Gold spot price	                0.15%	Link
+Amundi ETF PEA Nasdaq           	8%	Nasdaq 100	                0.23%	Link
+iShares Euro Government Bond 7-10yr  	35%	Bloomberg Barclays Euro Government Bond 10 Year Term	0.20%	Link
+
+
+
+
+
+
+
+iShares USD Treasury Bond 20+yr UCITS ETF USD (Acc)	20%	ICE US Treasury 20+ Year Bond	                        0.07%	931 M    https://www.blackrock.com/fr/intermediaries/products/272124/ishares-usd-treasury-bond-20-yr-ucits-etf
+Amundi Physical Gold ETC (C)	                        10%	Gold spot price                                         0.15%	3288 M   https://www.amundietf.fr/professional/product/view/FR0013416716
+iShares Euro Government Bond 7-10yr UCITS ETF (Acc)	40%	Bloomberg Barclays Euro Government Bond 10 Year Term	0.20%	73 M     https://www.blackrock.com/fr/intermediaries/products/253461/ishares-euro-government-bond-710-ucits-etf-acc-fund
+iShares Nasdaq 100 UCITS ETF (Acc)	                 5%	Nasdaq 100	                                        0.33%	6583 M   https://www.blackrock.com/fr/intermediaries/products/253741/ishares-nasdaq-100-ucits-etf
+iShares Core S&P 500 UCITS ETF (Acc)	                15%	S&P 500	                                                0.07%	42294 M  https://www.blackrock.com/fr/intermediaries/products/253743/ishares-sp-500-b-ucits-etf-acc-fund 
+Lyxor MSCI EM Asia UCITS ETF - Acc	                10%	MSCI Emerging Markets Asia	                        0.12%	143 M    https://www.lyxoretf.fr/fr/instit/produits/etf-actions/lyxor-msci-em-asia-ucits-etf-acc/lu1781541849/eur	
+
+
+
+
+
+
+
+
+
+
+

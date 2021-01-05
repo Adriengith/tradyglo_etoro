@@ -1,0 +1,36 @@
+SELECT * FROM positions;
+
+SELECT * FROM actions;
+
+SELECT * FROM peoples;
+
+
+SELECT tec_symbol, tec_exchange, tec_country, tec_validation FROM actions where id = 1;
+
+
+
+
+SELECT peoples.people, pourcent, position, actions.name, actions.tec_symbol, actions.tec_exchange, actions.tec_country, date, scraping_id, max_traders FROM positions
+INNER JOIN peoples ON positions.id_people = peoples.id
+INNER JOIN actions ON positions.id_action = actions.id WHERE id_action = 9 AND scraping_id = 1 ORDER BY pourcent DESC;
+
+
+
+UPDATE ACTIONS SET tec_exchange = 'aaa', tec_country = 'aaa' WHERE id = 1;
+
+SELECT date FROM positions WHERE scraping_id = 1;
+
+
+
+SELECT peoples.people, pourcent, position, actions.name, actions.tec_symbol, actions.tec_exchange, actions.tec_country, date, scraping_id, max_traders, AVG(pourcent) FROM positions
+                                INNER JOIN peoples ON positions.id_people = peoples.id
+                                INNER JOIN actions ON positions.id_action = actions.id WHERE id_action = 100 AND scraping_id = 2 ORDER BY pourcent DESC;
+
+
+
+
+
+SELECT actions.id, actions.name, COUNT(id_action) AS nb_traders, AVG(pourcent) AS avg_pourcent, positions.scraping_id, actions.max_traders
+                                FROM positions 
+                                INNER JOIN peoples ON positions.id_people = peoples.id
+                                INNER JOIN actions ON positions.id_action = actions.id WHERE scraping_id = 1 GROUP BY id_action ORDER BY nb_traders DESC, avg_pourcent;
